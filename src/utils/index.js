@@ -10,6 +10,11 @@ export const customFetch = axios.create({
     baseURL: developmentUrl,
 });
 
+export const customFetchTasks = axios.create({
+    baseURL: 'http://localhost:5000/api/tasks',
+});
+
+
 export const formatDate = (date) => {
     const formattedDate = moment(date).format('LL')
     return formattedDate

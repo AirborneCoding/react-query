@@ -20,6 +20,7 @@ import {
 import Layout from "./pages/Layout";
 import { SkeletonTheme } from "react-loading-skeleton";
 import SinglePost from "./pages/SinglePost";
+import Tasks from "./pages/Tasks";
 
 
 // infastructions
@@ -40,9 +41,14 @@ const router = createBrowserRouter([
         path: "/posts/:id",
         element: <SinglePost />
       },
+      // {
+      //   path: "/tasks",
+      //   element: <Tasks />
+      // },
     ]
   },
   // *************PROFILE (auth users) *****************
+
 
 
   // *************AUTH*****************
